@@ -5,25 +5,15 @@ ibtool shortcuts to generate localized XIB files
 
 Features
 -------------------------
-Make sure your XIB files are localized using Interface Builder:
-http://blog.federicomestrone.com/2012/06/06/xib-file-internationalization/
-
+Make sure your XIB files are localized using Interface Builder.
 
 Generate strings file for your base language:
 
     $ ibtool-generate base-language class-name
 
-is a shortcut for:
-    
-    $ ibtool --generate-strings-file $base-language.lproj/$class-name.strings $base-language.lproj/$class-name.xib
-
-Integrate your translated strings file in your translated XIB file
+Integrate your translated strings file in your localized XIB file:
 
     $ ibtool-write base-language target-language class-name
-
-is a shortcut for:
-    
-    $ ibtool --strings-file $target-language.lproj/$class-name.strings --write $target-language.lproj/$class-name.xib $base-language.lproj/$class-name.xib
 
 
 Installation
