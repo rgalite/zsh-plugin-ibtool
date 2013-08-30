@@ -9,7 +9,7 @@ Make sure your XIB files are localized using Interface Builder.
 
 Generate strings file for your base language:
 
-    $ ibtool-generate base-language class-name
+    $ ibtool-gen base-language class-name
 
 Integrate your translated strings file in your localized XIB file:
 
