@@ -22,7 +22,7 @@ Type these commands in your terminal:
 
     $ git clone git@github.com:RudthMael/zsh-plugin-ibtool.git
     $ mkdir -p ~/.oh-my-zsh/custom/plugins
-    $ ln -s zsh-plugin-ibtool/ibtool ~/.oh-my-zsh/custom/plugins/ibtool
+    $ ln -nfs $(pwd)/zsh-plugin-ibtool/ibtool ~/.oh-my-zsh/custom/plugins/ibtool
     
 And edit your .zshrc file:
 
